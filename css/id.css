@@ -1,0 +1,147 @@
+@charset "utf-8";
+html,body{
+    font-family:"맑은고딕";
+    /* font-size:16px;
+    color:dimgray; */
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+
+}
+*{
+    box-sizing: border-box;
+}
+
+ul, ol li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    color: darkgrey;
+}
+img{
+    vertical-align:top;
+}
+.flex {
+    display: flex;
+}
+
+
+
+/* --visual */
+.visual-con{
+    width:1280px;
+    /* border: 1px solid greenyellow; */
+    flex-direction: column;
+
+    position: relative;
+
+}
+
+.visual-con .title{
+    width:290px;
+    /* border:1px solid red; */
+    background-color: #E1DEE2;
+    font-size: 15px;
+    font-weight: lighter;
+    margin:140px 0px 0 -10px;
+    padding:10px 25px 10px 0px;
+    justify-content: end;
+    border-radius: 3px;
+
+}
+.visual-con .sub-title{
+    width:250px;
+    /* border:1px solid red; */
+    background-color: #E1DEE2;
+    font-size: 13px;
+    font-weight: lighter;
+    margin:20px 0px 0 -115px;
+    padding:10px 25px 10px 0px;
+    justify-content: end;
+    border-radius: 3px;
+
+}
+
+.visual-con .id{
+    flex-direction: column;
+    position: absolute;
+    top:230px;
+    left:280px;
+    border:1px solid #E1DEE2;
+    width:500px;
+    flex-direction: column;
+    gap:20px 0px;
+    padding: 65px 0 30px 0;
+}
+
+
+.id>div{
+    margin: auto;
+    display: flex;
+    gap:6px 0;
+    width:300px;
+    font-weight: bold;
+    color: #736777;
+    /* border: 1px solid red; */
+    align-items: center;
+    gap:0 15px;
+}
+
+/* ---이름 */
+
+.id>div label{
+    font-weight:lighter;
+    font-size: 13px;
+}
+.id>div input{
+    border: 1px solid #E1DEE2;
+    border-radius: 3px;
+    outline: none;
+    height:35px;
+    outline: none;
+}
+
+/* ----수단 선택 */
+.way>div{
+    font-size: 12px;
+}
+.way>div input{
+    border: 1px solid #E1DEE2;
+    border-radius: 2px;
+    outline: none;
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+/* 핸드폰 번호로 찾기 , 이메일로 찾기*/
+.phone input,.email input{
+    border: 1px solid #E1DEE2;
+    border-radius: 2px;
+    outline: none;
+    vertical-align: middle;
+    font-size: 12px;
+    width:170px
+}
+
+.id .phone,.id .email{
+    justify-content: space-between;
+}
+
+/* ------submit */
+
+
+.submit input[type=submit]{
+    width:300px;
+    height:50px;
+    background-color: #E1DEE2;
+    color:dimgray;
+    /* font-style: italic; */
+    font-weight: lighter;
+    margin: 50px 0 0px auto;
+}
+
