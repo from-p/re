@@ -2,15 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>from.noise</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js">    
     </script>
     <link rel="shortcut icon" href="images/mute-logo.png">
-    <link rel="stylesheet" href="/css/psw.css">
-    <link rel="stylesheet" href="/css/reproject.css">
+    <link rel="stylesheet" href="id.css">
+    <link rel="stylesheet" href="reproject.css"> 
     <!-- <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/reproject.js"></script> -->
 </head>
@@ -65,23 +65,29 @@
         </footer>
     </div>
     <div class="visual-con flex">
-        <p class="title flex">비밀번호 찾기</p>
-        <a href="id.html"><p class="sub-title flex">ID 찾기</p></a>
-        <form class="psw flex">
+        <p class="title flex">ID 찾기</p>
+        <a href="psw.html"><p class="sub-title flex">비밀번호 찾기</p></a>
+        <form class="id flex">
             <div class="name">
-                <label for="psw-name">이름</label>
-                <input type="text" name="psw-name"
-                id="psw-name" maxlength="8">
+                <label for="id-name">이름</label>
+                <input type="text" name="id-name"
+                id="id-name" maxlength="8">
             </div>
-            <div class="id">
-                <label for="psw-id">ID</label>
-                <input type="text" name="psw-id"
-                id="psw-id" maxlength="8">
+            <div class="way">
+                <div>
+                    <input type="radio" name="way" value="phone">핸드폰 번호로 찾기
+                    <input type="radio" name="way" value="email">이메일로 찾기
+                </div>
+            </div>
+            <div class="phone">
+                <label for="id-phone">핸드폰 번호로 찾기</label>
+                <input type="text" name="id-phone"
+                id="id-phone" maxlength="8">
             </div>
             <div class="email">
-                <label for="id-email">이메일</label>
+                <label for="id-email">이메일로 찾기</label>
                 <input type="text" name="id-email"
-                id="psw-email" maxlength="30">
+                id="id-email" maxlength="8">
             </div>
             <div class="submit">
                 <input type="submit" name="trans" value="확인">
