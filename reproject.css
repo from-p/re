@@ -68,7 +68,7 @@ img{
     gap:25px 0;
     font-size: 18px;
     font-weight: lighter;
-    /* font-family: 'MeshedDisplay-ExtraLight'; */
+    font-family: 'MeshedDisplay-ExtraLight';/
 }
 
 .main-submenu{
@@ -79,7 +79,7 @@ img{
     gap:25px 0;
     font-size: 18px;
     font-weight: lighter;
-    /* font-family: 'MeshedDisplay-ExtraLight'; */
+    font-family: 'MeshedDisplay-ExtraLight';
 }
 
 
