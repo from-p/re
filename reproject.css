@@ -378,27 +378,21 @@ footer .d-footer-text{
 
 
 
-    .main-visual{
+    .swiper{
         width:90%;
         height:370px;
         background-color: #E1DEE2;
         margin: 45px 0 0 0;
-        justify-content: center;
-        align-items:center ;
     }
 
-    .main-visual .swiper {
-        width:90%;
-        height:90%;
-        /* border: 1px solid blue; */
-      }
-    .main-visual .swiper .swiper-wrapper{
+    
+    .swiper .swiper-wrapper{
         position: relative;
     }
 
-    .main-visual .swiper .swiper-wrapper .swiper-slide{
-        /* border: 1px solid red; */
-        text-align: center;
+    .swiper .swiper-wrapper .swiper-slide{
+        border: 1px solid red;
+        /* text-align: center; */
         font-size: 18px;
 
 
@@ -421,30 +415,32 @@ footer .d-footer-text{
 
     }
 
-    .main-visual .swiper .swiper-wrapper .swiper-slide>img{
+    .swiper .swiper-wrapper .swiper-slide>img{
         display: flex;
-        position: absolute;
+        /* position: absolute; */
+        width: 35%;
     }
-    .main-visual .swiper .swiper-wrapper .swiper-slide>div{
+    .swiper .swiper-wrapper .swiper-slide>div{
         position: absolute;
+        border: 1px solid blue;
     }
-    .main-visual .swiper .swiper-wrapper .swiper-slide>p{
+    .swiper .swiper-wrapper .swiper-slide>p{
         display: flex;
-        position: absolute;
+        /* position: absolute; */
         font-family: 'MeshedDisplay-ExtraLight';
         color: #716276;
     }
 
     /* ----m-visual first */
-    .f-img{
+    /* .f-img{
         width:50%;
         top:7%;
         left:10%;
 
-    }
+    } */
     .f-chip{
-        width:18%;
-        height:27%;
+        width:30px;
+        height:50px;
         background-color: white;
 
         top:35%;
@@ -665,7 +661,7 @@ footer .d-footer-text{
 
     .m-content{
         /* border:1px solid black; */
-        width:60%;
+        width:80%;
         justify-content: space-around;
         align-items: center;
         margin-top: 100px;
