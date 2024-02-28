@@ -200,7 +200,7 @@ img{
     }
 
     .m-main-product{
-        width:100%;
+        width:95%;
         /* border:1px solid red; */
         justify-content: space-evenly;
         align-items: center;
@@ -210,6 +210,8 @@ img{
     }
     .m-main-product .m-option{
         flex-direction: column;
+        width:30%;
+        gap:10px;
     }
 
     .m-other{

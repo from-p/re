@@ -433,6 +433,7 @@ footer .d-footer-text{
         justify-content: space-around;
         align-items: center;
         margin-top: 100px;
+        gap:15px;
     }
     .m-content>div a>div{
         width:50px;
