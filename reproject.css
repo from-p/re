@@ -379,13 +379,16 @@ footer .d-footer-text{
 
 
     .main-visual{
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width:90%;
-        height:370px;
         background-color: #E1DEE2;
         margin: 45px 0 0 0;
         justify-content: center;
         align-items:center ;
+    }
+
+    .main-visual img{
+        width:85%;
     }
 
     
@@ -446,6 +449,8 @@ footer .d-footer-text{
         font-size: 14px;
     }
 
+
+    
     
 
 
