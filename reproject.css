@@ -1,6 +1,6 @@
 @charset "utf-8";
 html,body{
-    font-family:"맑은고딕";
+    font-family:'Vogue';
     /* font-size:16px;
     color:dimgray; */
     margin:0;
@@ -29,6 +29,40 @@ img{
 .flex {
     display: flex;
 }
+
+@font-face {
+    font-family: 'Vogue';
+    src: url(font/Vogue.woff) format('woff');
+}
+@font-face {
+    font-family: 'MeshedDisplay-Black';
+    src: url(font/MeshedDisplay-Black.woff) format('woff');
+}
+@font-face {
+    font-family: 'MeshedDisplay-Bold';
+    src: url(font/MeshedDisplay-Bold.woff) format('woff');
+}
+@font-face {
+    font-family: 'MeshedDisplay-ExtLtSlant';
+    src: url(font/MeshedDisplay-ExtLtSlant.woff) format('woff');
+}
+@font-face {
+    font-family: 'MeshedDisplay-ExtraLight';
+    src: url(font/MeshedDisplay-ExtraLight.woff) format('woff');
+}
+@font-face {
+    font-family: 'MeshedDisplay-Regular';
+    src: url(font/MeshedDisplay-Regular.woff) format('woff');
+}
+@font-face {
+    font-family: 'MeshedDisplay-Slanted';
+    src: url(font/MeshedDisplay-Slanted.woff) format('woff');
+}
+@font-face {
+    font-family: 'MeshedDisplay-Thin';
+    src: url(font/MeshedDisplay-Thin.woff) format('woff');
+}
+
 
 
 /* ---------main */
@@ -79,7 +113,7 @@ img{
     gap:25px 0;
     font-size: 18px;
     font-weight: lighter;
-    /* font-family: 'MeshedDisplay-ExtraLight'; */
+    font-family:'Vogue';
 }
 
 
@@ -109,7 +143,7 @@ footer{
     width:70%;
     justify-content: flex-end;
     font-weight: lighter;
-    /* font-family: 'MeshedDisplay-ExtraLight'; */
+    font-family: 'Vogue';
     gap:10px;
 }
 /* .visual .log p{
@@ -204,8 +238,7 @@ footer{
     animation-name:con-text1;
     animation-duration:8s;
     animation-fill-mode:forwards;
-    font-family: 'MeshedDisplay-ExtraLight';
-
+    font-family:'MeshedDisplay-ExtraLight';
     letter-spacing: +1.1px;
     font-size:15px;
     color: #716276;
@@ -354,7 +387,7 @@ footer .d-footer-text{
         /* border: 1px solid black; */
         gap:60px;
         position: relative;
-        /* font-family: 'MeshedDisplay-ExtraLight'; */
+        font-family: 'Vogue';
         font-weight: lighter;
         cursor: pointer;
     }
@@ -368,7 +401,7 @@ footer .d-footer-text{
     }
     .drop a{
         text-align: center;
-        /* font-family: 'MeshedDisplay-ExtraLight'; */
+        font-family: 'Vogue';
         font-weight: lighter;
     }
 

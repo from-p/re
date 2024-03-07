@@ -1,40 +1,9 @@
-@charset "utf-8";
-html,body{
-    font-family:"맑은고딕";
-    /* font-size:16px;
-    color:dimgray; */
-    margin:0;
-    padding:0;
-    overflow-x: hidden;
-
-}
-*{
-    box-sizing: border-box;
-}
-
-ul, ol li {
-    list-style: none;
-}
-
-a{
-    text-decoration: none;
-    color: inherit;
-}
-a:hover{
-    color: darkgrey;
-}
-img{
-    vertical-align:top;
-}
-.flex {
-    display: flex;
-}
-
 
 
 .product-content{
     /* border: 1px solid black; */
     flex-direction: column;
+    font-family: 'MeshedDisplay-ExtraLight';
 }
 
 .product{
@@ -196,6 +165,7 @@ img{
         width:100%;
         margin:50px 0;
         align-items: center;
+        font-family: 'MeshedDisplay-ExtraLight';
 
     }
 
