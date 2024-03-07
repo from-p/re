@@ -208,7 +208,7 @@ footer{
 
     letter-spacing: +1.1px;
     font-size:15px;
-    color: #a394a8;
+    color: #716276;
 }
 @keyframes con-text1 {
     100%{
@@ -231,11 +231,11 @@ footer{
     font-family: 'MeshedDisplay-ExtraLight';
     letter-spacing: +1.1px;
     font-size:15px;
-    color: #716276;
+    color: #ad9cb3;
 }
 @keyframes con-text2{
     100%{
-        left:60px;
+        left:65px;
         opacity: 1;
     }
 }

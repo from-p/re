@@ -319,6 +319,11 @@ img{
     .clothes a>img{
         width:100%;
     }
+    .clothes a>div{
+        font-family: 'MeshedDisplay-ExtraLight';
+        margin-top: 10px;
+        color:#736976;
+    }
 
 
 
